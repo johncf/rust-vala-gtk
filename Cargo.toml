@@ -1,0 +1,10 @@
+[package]
+name = "ctrl"
+version = "0.0.1"
+authors = ["johncf <johncf@protonmail.com>"]
+
+[lib]
+crate-type = ["dylib"]
+path = "ctrl/lib.rs"
+
+[dependencies]
